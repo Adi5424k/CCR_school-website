@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to right, black , red);
+}
+
+body {
+    background-color:rgb(136, 136, 136);
+}
+
+header {
+    background-image: linear-gradient(to right, red , black);
+}
+
+.sname {
+    font-family: monospace;
+    font-size:30px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.home_head {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    color: white;
+    padding-top: 55px;
+}
+
+.home_head1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 34px;
+    color: white;
+    padding-top: 0px;
+}
+
+.home_btn {
+    font-size: 18px;
+}
+
+.book {
+    background-image:url('../book_bg.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px 0;
+}
