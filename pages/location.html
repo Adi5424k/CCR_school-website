@@ -29,15 +29,15 @@
             </div>
         </nav>
     </header>
-
+    <div class="book">
     <!-- Interactive Map Section -->
     <section class="container my-5">
         
         <div id="map" style="height: 400px;"></div>
-    </section>
+    </section></div>
 
     <!-- Footer -->
-    <footer class="footer text-center py-3">
+    <footer class="footer text-center py-2">
         <p>&copy; 2024 SOCSE. All rights reserved.</p>
     </footer>
 
@@ -47,7 +47,7 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script>
         // Initialize the map, centered on RVU College at Pattangere
-        var map = L.map('map').setView([12.9237, 77.4994], 16);
+        var map = L.map('map').setView([12.9237, 77.4994], 16); // Coordinates for RVU College, Pattangere
 
         // Add a tile layer
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -56,7 +56,7 @@
 
         // Add a marker for RVU College
         L.marker([12.9237, 77.4994]).addTo(map)
-            .bindPopup('RVU College, Pattanagere')
+            .bindPopup('RVU College, Pattangere')
             .openPopup();
     </script>
 </body>
